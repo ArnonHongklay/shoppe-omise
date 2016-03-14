@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = OmiseShoppe::VERSION
   s.authors     = ["nonmadden"]
   s.email       = ["nonmadden@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OmiseShoppe."
-  s.description = "TODO: Description of OmiseShoppe."
+  s.homepage    = "http://omise-shoppe.ohmpieng.co"
+  s.summary     = "This gem is helper for shoppe and omise payment gateway"
+  s.description = "This gem is helper for shoppe and omise payment gateway"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
