@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :omise_shoppe do
+# task :shoppe_omise do
 #   # Task goes here
 # end
