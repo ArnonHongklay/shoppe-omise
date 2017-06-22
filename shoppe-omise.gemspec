@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Arnon Hongklay"]
   s.email       = ["arnon@hongklay.com"]
   s.homepage    = "TODO"
-  s.summary     = "A Stripe module for Shoppe."
-  s.description = "A Stripe module to assist with the integration of Stripe."
+  s.summary     = "A Omise module for Shoppe."
+  s.description = "A Omise module to assist with the integration of Omise."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
