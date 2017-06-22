@@ -10,13 +10,15 @@ Gem::Specification.new do |s|
   s.authors     = ["Arnon Hongklay"]
   s.email       = ["arnon@hongklay.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Shoppe::Omise."
-  s.description = "TODO: Description of Shoppe::Omise."
+  s.summary     = "A Stripe module for Shoppe."
+  s.description = "A Stripe module to assist with the integration of Stripe."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 5.1.1"
+  s.add_dependency 'omise'
+  s.add_dependency 'coffee-rails'
 
   s.add_development_dependency "pg"
 end
